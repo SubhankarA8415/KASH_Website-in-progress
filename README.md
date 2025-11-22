@@ -1,287 +1,245 @@
-.
-
 📘 College Management & Digital Infrastructure System
+A Complete Institutional Automation Platform for Kash College
+<p align="center"> <img src="https://img.shields.io/badge/Backend-Node.js-green?style=for-the-badge"> <img src="https://img.shields.io/badge/Database-MongoDB-brightgreen?style=for-the-badge"> <img src="https://img.shields.io/badge/Frontend-HTML%20%7C%20CSS%20%7C%20EJS-blue?style=for-the-badge"> <img src="https://img.shields.io/badge/Status-In%20Development-yellow?style=for-the-badge"> </p>
+🚀 Project Overview
 
-A robust, full-stack management system developed for Kash College, designed to digitalize institutional operations across academic, administrative, residential, library, sports, and inventory domains.
+A full-stack institutional automation platform built for Kash College, aimed at digitalizing 95% of academic, administrative, residential, sports, library, and inventory workflows.
 
-This system is built to achieve 95% digital automation, with modular architecture, secure data handling, and scalable backend design.
+Designed with scalability, data security, and long-term automation in mind.
 
-🛠️ Tech Stack
+🛠 Tech Stack
+Category	Technologies
+Frontend	HTML, CSS, EJS Templates, Bootstrap/Tailwind
+Backend	Node.js, Express.js
+Database	MongoDB
+Integrations	Excel/CSV Export, SMTP Email, Payment Gateways
+Developer	Subhankar Pandit – Full Stack Developer, Backend Engineering
+✅ Completed Features
+🎓 Academic System
 
-Frontend:
+Curriculum structure (Unit → Chapter → Topic → Subtopic)
 
-HTML5, CSS3
+Staff & faculty module
 
-EJS Templates
+IT & admin staff
 
-Bootstrap / Tailwind (whichever you used)
+Purchases & procurement
 
-Backend:
+Department-wise inventory
 
-Node.js
+Accounts (Purchase tracking)
 
-Express.js
+Lab management (inventory, attendance, equipment)
 
-Database:
+Subjects & lab mapping
 
-MongoDB
+Test management for MAT / CAT / VST / PTS / Test Exam / Annual
 
-Other Integrations:
+Timetable system
 
-CSV/Excel Export
+Noticeboard + event scheduler
 
-Email Services
+Lesson plan & progress tracking
 
-Payment Gateways (ICICI / Axis / Razorpay)
+Principal performance review
 
-Developer: Subhankar Pandit
-Full Stack Developer (MERN, Express.js, Django, ML/AI)
-B.Tech CSE, ITER SOA University
+Monthly budgeting
 
-✔️ Completed Features
+Academic calendar
 
-(Everything except the items you specifically listed as incomplete)
-
-🎓 Core Academics
-
-Curriculum structure (Unit → Chapter → Topics → Subtopics)
-
-Staff & Faculty Management (Teaching + Non-teaching)
-
-IT & Admin Staff Module
-
-Procurement & Inventory of academic items
-
-Accounts: purchase logs & student fee due tracking
-
-Laboratory Management
-
-Lab inventory
-
-Equipment tracking
-
-Purchase logs
-
-Lab attendance
-
-Subjects & Labs:
-
-Physics, Chemistry, Botany, Zoology, IT
-
-MIL English, MIL Odia, Math, etc.
-
-Class Timetable
-
-Test Management
-
-Test Types: MAT, CAT, Test Exam, PTS, VST, Annual Exam
-
-Test Scheduling System
-
-Calendar System (Academic Calendar)
-
-Noticeboard Module
-
-Program & Event Scheduling
-
-Teacher Lesson Plan (Assigned + Progress Tracking)
-
-Principal Review of Teacher Lesson Plan
-
-Monthly Budgeting System
-
-🏫 Residential Department
+🏫 Residential System
 
 Sick management
 
-Medicine Inventory
+Medicine inventory
 
-Hostel Inventory (mosquito nets, pillows, basic items)
+General hostel inventory
 
-🏋️‍♂️ Sports Department
+🏋️ Sports System
 
 Sports equipment inventory
 
-Purchase management
+Purchase tracking
 
-🍽️ Kitchen Department
+🍽 Kitchen System
 
-Kitchen inventory
+Inventory management
 
 Staff attendance
 
-📚 Library Department
+📚 Library System
 
-Library inventory
+Book inventory
 
-Book registration system
+Book registration
 
 📦 Additional Inventories
 
-(All created and functional)
-
 Assets
 
-Miscellaneous (stationery, cleaning items, etc.)
+Plumbing, Electrical, RO, DG
 
-Plumbing
+Garden & Misc items
 
-Electrical
+Stationery & Cleaning items
 
-RO
+Medicine Stock
 
-DG
+📤 Exports
 
-Garden
+Export: Student list
 
-Medicine
+Export: Staff list
 
-📤 Data Export System
+Export: All inventories
 
-Export all student data
+❌ Pending Features (Not Done Yet)
 
-Export all staff data
+These are the modules you specifically marked as NOT completed.
 
-Export all inventory lists
+❗ Academic Pending
 
-❌ Pending / Not Completed (Your List)
-
-These are explicitly NOT DONE, as per your message:
-
-Academic Pending
-
-Admission (via SAMS portal)
+Admission (SAMS portal)
 
 Fees
 
 Scholarships
 
-Class and Lab attendance (final model)
+Class & lab attendance (final model)
 
-Quiz bank (subject-wise)
+Quiz bank
 
-Performance reviews
+Teacher performance review
 
-Notifications (Admin → Staff/Students)
+Notifications system
 
 Extracurricular activity reporting
 
-Transport Pending
+❗ Transport Pending
 
-Transport schedules
+Transport schedule system
 
-Residential Pending
+❗ Residential Pending
 
-Separate attendance for boys/girls (final version)
+Separate boys/girls attendance
 
-Item return system (final version)
+Hostel exit item return system
 
-Kitchen Pending
+❗ Kitchen Pending
 
 Mess menu & timings
 
-Library Pending
+❗ Library Pending
 
-Book issue & return (final version)
+Issue & return system
 
-Inventory Pending
+❗ Inventory Downloads Pending
 
-Assets (final version)
+Staff / Student / Inventory export (final version)
 
-Downloads:
+Attendance export
 
-Staff list
+Exam results export
 
-Student list
+Fee payment export
 
-Inventory lists
-
-Attendance
-
-Exam results
-
-Fee payment details
-
-Sponsorship & Donations Pending
+❗ Sponsorship & Donations Pending
 
 Sponsorship module
 
 Donation module
 
-Indian payments (ICICI, Axis)
+ICICI / Axis integration
 
-Foreign payments (Razorpay)
+Razorpay integration
 
-Alumni Pending
+❗ Alumni Pending
 
-Move students to alumni
+Auto move to alumni
 
 Bulk email to alumni
 
-Dashboards Pending
+❗ Dashboards Pending
 
-Student view-only dashboard
+Student dashboard
 
 Parent dashboard
 
 Staff dashboard
 
-Staff Pending
+❗ Staff Pending
 
-Staff joining tracker (unlocking after 1 year)
+Joining tracker (1-year unlock logic)
 
-Student Pending
+❗ Student Pending
 
 SAMS portal integration
 
-Women’s Cell / Safety Cell Pending
+❗ Women’s Cell Pending
 
-Safety environment system
+Safety environment
 
-Grievance redressal system
+Grievance redressal
 
-Confidential complaint handling
+Confidential complaint mechanism
 
-Awareness programs
-
-Gender-sensitivity sessions
+Gender sensitivity programs
 
 🧱 System Architecture
-Views (HTML/EJS)
-        │
-Express.js Backend
-        │
-Modules:
-  • Academic
-  • Hostel
-  • Kitchen
-  • Library
-  • Sports
-  • Inventory
-  • Sponsorship
-  • Alumni
-  • Payments
-        │
-MongoDB Database
+flowchart TD
+    A[Frontend<br>HTML • CSS • EJS] --> B[Express.js Backend]
+    B --> C[Academic Module]
+    B --> D[Residential Module]
+    B --> E[Kitchen Module]
+    B --> F[Library Module]
+    B --> G[Sports Module]
+    B --> H[Inventory Module]
+    B --> I[Sponsorship & Donations]
+    B --> J[Alumni]
+    B --> K[Payments]
+    B --> L[Email/Notifications]
+    B --> M[MongoDB Database]
 
+⚙️ Installation & Setup
+# Clone repository
+git clone https://github.com/<your-username>/<your-repo>.git
+cd <your-repo>
 
-📌 Future Enhancements
+# Install dependencies
+npm install
 
-Full RBAC with dashboards
+# Setup .env file
+PORT=
+MONGO_URI=
+EMAIL=
+EMAIL_PASS=
+RAZORPAY_KEYS=
+ICICI_AXIS_KEYS=
+JWT_SECRET=
 
-Final integration of SAMS portal
+# Start server
+npm start
 
-Automated alumni pipeline
+🗺️ Future Enhancements
 
-Analytics dashboards
+Role-based dashboards with analytics
 
-Mobile app version
+Final SAMS portal integration
 
-AI-based performance insights
+AI-driven academic performance insights
 
-👨‍💻 Developer – Subhankar Pandit
+Mobile app (React Native / Flutter)
 
+Automated alumni workflow
+
+Biometric attendance integration
+
+👨‍💻 Developer
+
+Subhankar Pandit
 Full Stack Developer | Backend Engineer | AI/ML
-GitHub: https://github.com/SubhankarA8415
+🔗 GitHub: https://github.com/SubhankarA8415
+
+🔗 LinkedIn: https://linkedin.com/in/subhankar-pandit
 
 LinkedIn: https://linkedin.com/in/subhankar-pandit
