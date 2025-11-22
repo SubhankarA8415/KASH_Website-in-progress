@@ -1,245 +1,205 @@
-📘 College Management & Digital Infrastructure System
-A Complete Institutional Automation Platform for Kash College
-<p align="center"> <img src="https://img.shields.io/badge/Backend-Node.js-green?style=for-the-badge"> <img src="https://img.shields.io/badge/Database-MongoDB-brightgreen?style=for-the-badge"> <img src="https://img.shields.io/badge/Frontend-HTML%20%7C%20CSS%20%7C%20EJS-blue?style=for-the-badge"> <img src="https://img.shields.io/badge/Status-In%20Development-yellow?style=for-the-badge"> </p>
-🚀 Project Overview
+# 📘 **College Management & Digital Infrastructure System**
 
-A full-stack institutional automation platform built for Kash College, aimed at digitalizing 95% of academic, administrative, residential, sports, library, and inventory workflows.
+A full-stack automation system built for **Kash College**, designed to digitalize academics, administration, library, residential, sports, and all core institutional processes.
 
-Designed with scalability, data security, and long-term automation in mind.
+---
+
+## 🛠 **Tech Stack**
+
+**Frontend:**  
+- HTML  
+- CSS  
+- EJS Templates  
+- Bootstrap / Tailwind  
+
+**Backend:**  
+- Node.js  
+- Express.js  
+
+**Database:**  
+- MongoDB  
 
-🛠 Tech Stack
-Category	Technologies
-Frontend	HTML, CSS, EJS Templates, Bootstrap/Tailwind
-Backend	Node.js, Express.js
-Database	MongoDB
-Integrations	Excel/CSV Export, SMTP Email, Payment Gateways
-Developer	Subhankar Pandit – Full Stack Developer, Backend Engineering
-✅ Completed Features
-🎓 Academic System
+**Integrations:**  
+- CSV/Excel Export  
+- SMTP Email  
+- Payment Gateways (ICICI / Axis / Razorpay)
+
+**Developer:** **Subhankar Pandit**  
+
+---
+
+# ✅ **Completed Features**
+
+## 🎓 Academic
+- Curriculum Structure (Unit → Chapter → Topic → Subtopic)  
+- Staff Management (Teaching / Non-Teaching)  
+- IT & Administrative Staff  
+- Purchases & Procurement  
+- Academic Inventory  
+- Academic Accounts (purchase & fee dues tracking)  
+- Laboratory Management  
+- Lab Attendance  
+- Subject & Lab Mapping  
+- Class Timetable  
+- Exam/Test System (MAT, CAT, VST, PTS, Test Exam, Annual Exam)  
+- Test Scheduling  
+- Notice Manager  
+- Program & Event Scheduler  
+- Teacher Lesson Plans  
+- Principal Review System  
+- Monthly Budgeting  
+- Academic Calendar (Admin Editable)
+
+---
+
+## 🏫 Residential
+- Sick Management  
+- Medicine Inventory  
+- Basic Hostel Inventory (Mosquito net, pillow, etc.)
+
+---
+
+## 🏋️ Sports
+- Sports Inventory  
+- Equipment Tracking  
+
+---
+
+## 🍽 Kitchen
+- Kitchen Inventory  
+- Staff Attendance  
+
+---
 
-Curriculum structure (Unit → Chapter → Topic → Subtopic)
+## 📚 Library
+- Book Inventory  
+- Book Registration  
 
-Staff & faculty module
+---
 
-IT & admin staff
+## 📦 Additional Inventories
+- Assets  
+- Misc Items  
+- Plumbing  
+- Electrical  
+- RO  
+- DG  
+- Garden  
+- Medicine  
 
-Purchases & procurement
+---
 
-Department-wise inventory
+## 📤 Excel Export
+- Export Staff List  
+- Export Student List  
+- Export All Inventories  
 
-Accounts (Purchase tracking)
+---
 
-Lab management (inventory, attendance, equipment)
+# ❌ **Pending / Not Completed Yet**
 
-Subjects & lab mapping
+### Academic
+- Admission (SAMS Portal)  
+- Fees  
+- Scholarships  
+- Class & Lab Attendance (final model)  
+- Quiz Bank  
+- Teacher Performance Reviews  
+- Notifications  
+- Extracurricular Activity Reporting  
 
-Test management for MAT / CAT / VST / PTS / Test Exam / Annual
+### Transport  
+- Transport Schedules  
 
-Timetable system
+### Residential  
+- Boys/Girls Attendance (final version)  
+- Hostel Exit Item Return (final version)  
 
-Noticeboard + event scheduler
+### Kitchen  
+- Mess Menu & Timings  
 
-Lesson plan & progress tracking
+### Library  
+- Issue & Return System  
 
-Principal performance review
+### Inventory Exports  
+- Staff  
+- Students  
+- Inventories  
+- Attendance  
+- Exam Results  
+- Fee Payments  
 
-Monthly budgeting
+### Sponsorship & Donations  
+- Sponsorship Module  
+- Donation Module  
+- ICICI/Axis Payments  
+- Razorpay Payments  
 
-Academic calendar
+### Alumni  
+- Auto Move to Alumni  
+- Bulk Email System  
 
-🏫 Residential System
+### Dashboards  
+- Student Dashboard  
+- Parent Dashboard  
+- Staff Dashboard  
 
-Sick management
+### Staff  
+- Joining Tracker (1-year unlock)
 
-Medicine inventory
+### Student  
+- SAMS Portal Integration  
 
-General hostel inventory
+### Women’s Cell  
+- Safety Environment  
+- Confidential Grievance System  
+- Awareness Sessions  
+- Gender Sensitivity Programs  
 
-🏋️ Sports System
+---
 
-Sports equipment inventory
+# 🧱 **Architecture**
 
-Purchase tracking
+HTML / CSS / EJS
+↓
+Node.js + Express Backend
+↓
+Feature Modules:
 
-🍽 Kitchen System
+Academic
 
-Inventory management
+Residential
 
-Staff attendance
+Kitchen
 
-📚 Library System
+Library
 
-Book inventory
+Sports
 
-Book registration
+Inventory
 
-📦 Additional Inventories
+Sponsorship
 
-Assets
+Alumni
 
-Plumbing, Electrical, RO, DG
+Payments
+↓
+MongoDB Database
 
-Garden & Misc items
+---
 
-Stationery & Cleaning items
+# 📌 **Future Enhancements**
+- Analytics dashboards  
+- Automated alumni system  
+- Biometric attendance  
+- Full RBAC dashboards  
+- AI-based predictions  
+- SAMS integration  
 
-Medicine Stock
+---
 
-📤 Exports
-
-Export: Student list
-
-Export: Staff list
-
-Export: All inventories
-
-❌ Pending Features (Not Done Yet)
-
-These are the modules you specifically marked as NOT completed.
-
-❗ Academic Pending
-
-Admission (SAMS portal)
-
-Fees
-
-Scholarships
-
-Class & lab attendance (final model)
-
-Quiz bank
-
-Teacher performance review
-
-Notifications system
-
-Extracurricular activity reporting
-
-❗ Transport Pending
-
-Transport schedule system
-
-❗ Residential Pending
-
-Separate boys/girls attendance
-
-Hostel exit item return system
-
-❗ Kitchen Pending
-
-Mess menu & timings
-
-❗ Library Pending
-
-Issue & return system
-
-❗ Inventory Downloads Pending
-
-Staff / Student / Inventory export (final version)
-
-Attendance export
-
-Exam results export
-
-Fee payment export
-
-❗ Sponsorship & Donations Pending
-
-Sponsorship module
-
-Donation module
-
-ICICI / Axis integration
-
-Razorpay integration
-
-❗ Alumni Pending
-
-Auto move to alumni
-
-Bulk email to alumni
-
-❗ Dashboards Pending
-
-Student dashboard
-
-Parent dashboard
-
-Staff dashboard
-
-❗ Staff Pending
-
-Joining tracker (1-year unlock logic)
-
-❗ Student Pending
-
-SAMS portal integration
-
-❗ Women’s Cell Pending
-
-Safety environment
-
-Grievance redressal
-
-Confidential complaint mechanism
-
-Gender sensitivity programs
-
-🧱 System Architecture
-flowchart TD
-    A[Frontend<br>HTML • CSS • EJS] --> B[Express.js Backend]
-    B --> C[Academic Module]
-    B --> D[Residential Module]
-    B --> E[Kitchen Module]
-    B --> F[Library Module]
-    B --> G[Sports Module]
-    B --> H[Inventory Module]
-    B --> I[Sponsorship & Donations]
-    B --> J[Alumni]
-    B --> K[Payments]
-    B --> L[Email/Notifications]
-    B --> M[MongoDB Database]
-
-⚙️ Installation & Setup
-# Clone repository
-git clone https://github.com/<your-username>/<your-repo>.git
-cd <your-repo>
-
-# Install dependencies
-npm install
-
-# Setup .env file
-PORT=
-MONGO_URI=
-EMAIL=
-EMAIL_PASS=
-RAZORPAY_KEYS=
-ICICI_AXIS_KEYS=
-JWT_SECRET=
-
-# Start server
-npm start
-
-🗺️ Future Enhancements
-
-Role-based dashboards with analytics
-
-Final SAMS portal integration
-
-AI-driven academic performance insights
-
-Mobile app (React Native / Flutter)
-
-Automated alumni workflow
-
-Biometric attendance integration
-
-👨‍💻 Developer
-
-Subhankar Pandit
-Full Stack Developer | Backend Engineer | AI/ML
-🔗 GitHub: https://github.com/SubhankarA8415
-
-🔗 LinkedIn: https://linkedin.com/in/subhankar-pandit
-
-LinkedIn: https://linkedin.com/in/subhankar-pandit
+# 👨‍💻 **Developer**
+**Subhankar Pandit**  
+Full Stack Developer | Backend Engineer | AI/ML  
+GitHub: https://github.com/SubhankarA8415  
+LinkedIn: https://linkedin.com/in/subhankar-pandit  
