@@ -204,7 +204,8 @@ Full Stack Developer | Backend Engineer | AI/ML
 GitHub: https://github.com/SubhankarA8415  
 LinkedIn: https://linkedin.com/in/subhankar-pandit  
 
-**Yakkala G L Meenakshi** 
-Full Stack Developer |  API Integration
-GitHub: https://github.com/YMeenakshi23
+**Yakkala G L Meenakshi**  
+Full Stack Developer | API Integration  
+GitHub: https://github.com/YMeenakshi23  
 LinkedIn: https://www.linkedin.com/in/meenakshi-yakkala/
+
